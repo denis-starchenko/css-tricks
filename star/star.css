@@ -1,0 +1,29 @@
+.star {
+    color: #ddd;
+    font-size: 2em;
+    position: relative;
+    cursor: pointer;
+}
+.star.full:before {
+    text-shadow: 0 0 2px rgba(0,0,0,0.7);
+    color: #FDE16D;
+    content: '\2605';
+    position: absolute;
+    left: 0;
+}
+.star.half:before {
+    text-shadow: 0 0 2px rgba(0,0,0,0.7);
+    color: #FDE16D;
+    content: '\2605';
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}
+.star:hover:before {
+    text-shadow: 0 0 2px rgba(0,0,0,0.7);
+    color: #FDE16D;
+    content: '\2605';
+    position: absolute;
+    left: 0;
+}
