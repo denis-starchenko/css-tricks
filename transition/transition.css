@@ -1,0 +1,25 @@
+.box {
+    background: #9b59b6;
+    height: 100px;
+    width: 100px;
+    line-height:100px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.animated {
+    transition-property: background, border-radius;
+    transition-duration: 5s, 1s;
+}
+
+.box:hover {
+    background: #e74c3c;
+    transform-origin: top left;
+    transform:scale(2);
+    border-radius: 50px;
+}
